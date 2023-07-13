@@ -50,10 +50,13 @@
 				<color>ff61f2f2</color>
 				<width>4</width>
 			  </LineStyle>
+			  <PolyStyle>
+				<color>7f00ff00</color>
+			  </PolyStyle>
 			</Style>
 		<Placemark>
 			<name>Sentrum</name>
-			<styleUrl>blueLine</styleUrl>
+			<styleUrl>yellowLine</styleUrl>
 			<open>1</open>
 			<Polygon>
 				<tessellate>1</tessellate>
