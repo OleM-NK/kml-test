@@ -4,7 +4,6 @@
 		<name>Ground Overlays</name>
 		<description>Examples of ground overlays</description>
 
-		<Placemark>
 			<name>Sentrum</name>
 			<open>1</open>
 			<styleUrl>#drawingType:0,showMeasurement:false,type:1,name:Polygon,style:lineColor:#00ff00,fillOpacity:0.3,lineWidth:1191</styleUrl>
@@ -19,6 +18,5 @@
 					</LinearRing>
 				</outerBoundaryIs>
 			</Polygon>
-		</Placemark>
 	</Document>
 </kml>
