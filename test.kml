@@ -55,7 +55,7 @@
 			  </PolyStyle>
 			</Style>
 		<Placemark>
-			<name>Sentrum</name>
+			<name>Sentrum ikke gul</name>
 			<styleUrl>yellowLine</styleUrl>
 			<open>1</open>
 			<Polygon>
