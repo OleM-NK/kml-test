@@ -4,16 +4,34 @@
 		<name>Ground Overlays</name>
 		<description>Examples Test stuff</description>
 		<Style id="drawingType:0,showMeasurement:false,type:1,name:Polygon,style:lineColor:#00ff00,fillOpacity:0.3,lineWidth:11800">
-		  <LineStyle>
+		<LineStyle>
 			<color>80ffffaa</color>
 		</LineStyle>
-		  <PolyStyle>
+		<PolyStyle>
 			<color>bf00ffaa</color>
 		</PolyStyle>
-		</Style>
+	</Style>
+	<StyleMap id="drawingType:0,showMeasurement:false,type:1,name:Polygon,style:lineColor:#00ff00,fillOpacity:0.3,lineWidth:1191">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#drawingType:0,showMeasurement:false,type:1,name:Polygon,style:lineColor:#00ff00,fillOpacity:0.3,lineWidth:11800</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#drawingType:0,showMeasurement:false,type:1,name:Polygon,style:lineColor:#00ff00,fillOpacity:0.3,lineWidth:172</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="drawingType:0,showMeasurement:false,type:1,name:Polygon,style:lineColor:#00ff00,fillOpacity:0.3,lineWidth:172">
+		<LineStyle>
+			<color>80ffffaa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf00ffaa</color>
+		</PolyStyle>
+	</Style>
 		<Placemark>
 			<name>Sentrum</name>
-			<styleUrl>#greenLine</styleUrl>
+			<styleUrl>#drawingType:0,showMeasurement:false,type:1,name:Polygon,style:lineColor:#00ff00,fillOpacity:0.3,lineWidth:1191</styleUrl>
 			<open>1</open>
 			<Polygon>
 				<tessellate>1</tessellate>
