@@ -3,35 +3,57 @@
 	<Document>
 		<name>Ground Overlays</name>
 		<description>Examples Test stuff</description>
-		<Style id="drawingType:0,showMeasurement:false,type:1,name:Polygon,style:lineColor:#00ff00,fillOpacity:0.3,lineWidth:11800">
-		<LineStyle>
-			<color>80ffffaa</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>bf00ffaa</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="drawingType:0,showMeasurement:false,type:1,name:Polygon,style:lineColor:#00ff00,fillOpacity:0.3,lineWidth:1191">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#drawingType:0,showMeasurement:false,type:1,name:Polygon,style:lineColor:#00ff00,fillOpacity:0.3,lineWidth:11800</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#drawingType:0,showMeasurement:false,type:1,name:Polygon,style:lineColor:#00ff00,fillOpacity:0.3,lineWidth:172</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="drawingType:0,showMeasurement:false,type:1,name:Polygon,style:lineColor:#00ff00,fillOpacity:0.3,lineWidth:172">
-		<LineStyle>
-			<color>80ffffaa</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>bf00ffaa</color>
-		</PolyStyle>
-	</Style>
+			<Style id="blueLine">
+		  <LineStyle>
+			<color>ffff0000</color>
+			<width>4</width>
+		  </LineStyle>
+			</Style>
+			<Style id="redLine">
+			  <LineStyle>
+				<color>ff0000ff</color>
+				<width>4</width>
+			  </LineStyle>
+			</Style>
+			<Style id="greenLine">
+			  <LineStyle>
+				<color>ff009900</color>
+				<width>4</width>
+			  </LineStyle>
+			</Style>
+			<Style id="orangeLine">
+			  <LineStyle>
+				<color>ff00ccff</color>
+				<width>4</width>
+			  </LineStyle>
+			</Style>
+			<Style id="pinkLine">
+			  <LineStyle>
+				<color>ffff33ff</color>
+				<width>4</width>
+			  </LineStyle>
+			</Style>
+			<Style id="brownLine">
+			  <LineStyle>
+				<color>ff66a1cc</color>
+				<width>4</width>
+			  </LineStyle>
+			</Style>
+			<Style id="purpleLine">
+			  <LineStyle>
+				<color>ffcc00cc</color>
+				<width>4</width>
+			  </LineStyle>
+			</Style>
+			<Style id="yellowLine">
+			  <LineStyle>
+				<color>ff61f2f2</color>
+				<width>4</width>
+			  </LineStyle>
+			</Style>
 		<Placemark>
 			<name>Sentrum</name>
-			<styleUrl>#drawingType:0,showMeasurement:false,type:1,name:Polygon,style:lineColor:#00ff00,fillOpacity:0.3,lineWidth:1191</styleUrl>
+			<styleUrl>blueLine</styleUrl>
 			<open>1</open>
 			<Polygon>
 				<tessellate>1</tessellate>
