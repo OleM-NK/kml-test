@@ -88,11 +88,11 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Østbyen</name>
+			<name>Østbyen ikke gul?</name>
 			<open>1</open>
-			<styleUrl>#drawingType:0,showMeasurement:false,type:1,name:Polygon,lineColor:#33cc33,fillOpacity:0.3,lineWidth:1191</styleUrl>
+			<styleUrl>yellowLine</styleUrl>
 			<Polygon>
-				<tessellate>1</tessellate>
+				<extrude>1</extrude>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				<outerBoundaryIs>
 					<LinearRing>
