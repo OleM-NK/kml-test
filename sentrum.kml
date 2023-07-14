@@ -56,7 +56,15 @@
 			</Style>
 		<Placemark>
 			<name>Sentrum</name>
-			<styleUrl>yellowLine</styleUrl>
+			<Style>
+				<LineStyle>
+					<color>ff61f2f2</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>7f00ff00</color>
+				</PolyStyle>
+			</Style>
 			<description>Consumption pr person</description>
 			<open>1</open>
 			<Polygon>
