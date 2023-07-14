@@ -57,6 +57,7 @@
 		<Placemark>
 			<name>Sentrum ikke gul</name>
 			<styleUrl>yellowLine</styleUrl>
+			<description>Beskrivelse av sentrum</description>
 			<open>1</open>
 			<Polygon>
 				<tessellate>1</tessellate>
