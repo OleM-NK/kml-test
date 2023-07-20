@@ -67,11 +67,11 @@
 			<name>Vestbyen</name>
 			<Style>
 			  <LineStyle>
-				<color>bdd4al49</color>
+				<color>fdd4al49</color>
 				<width>4</width>
 			  </LineStyle>
 			  <PolyStyle>
-				<color>fdd4al49</color>
+				<color>bdd4al49</color>
 			  </PolyStyle>
 			</Style>
 			<description>Consumption pr person</description>
