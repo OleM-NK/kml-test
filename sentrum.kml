@@ -67,11 +67,11 @@
 			<name>Sentrum</name>
 			<Style>
 				<LineStyle>
-					<color>cfbd7b39</color>
+					<color>7fbd7b39</color>
 					<width>2</width>
 				</LineStyle>
 				<PolyStyle>
-					<color>7fbd7b39</color>
+					<color>cfbd7b39</color>
 				</PolyStyle>
 			</Style>
 			<description>Consumption pr person</description>
