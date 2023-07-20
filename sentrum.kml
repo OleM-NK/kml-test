@@ -56,11 +56,11 @@
 			</Style>
 			<Style id="sentrum">
 			  <LineStyle>
-				<color>397bbd</color>
+				<color>ff397bbd</color>
 				<width>4</width>
 			  </LineStyle>
 			  <PolyStyle>
-				<color>397bbd</color>
+				<color>ff397bbd</color>
 			  </PolyStyle>
 			</Style>
 		<Placemark>
