@@ -65,7 +65,15 @@
 			</Style>
 		<Placemark>
 			<name>Vestbyen</name>
-			<styleUrl>vestbyen</styleUrl>
+			<Style>
+			  <LineStyle>
+				<color>bdd4al49</color>
+				<width>4</width>
+			  </LineStyle>
+			  <PolyStyle>
+				<color>fdd4al49</color>
+			  </PolyStyle>
+			</Style>
 			<description>Consumption pr person</description>
 			<open>1</open>
 			<Polygon>
