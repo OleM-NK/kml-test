@@ -56,11 +56,11 @@
 			</Style>
 			<Style id="vestbyen">
 			  <LineStyle>
-				<color>49a1d4</color>
+				<color>7f49a1d4</color>
 				<width>4</width>
 			  </LineStyle>
 			  <PolyStyle>
-				<color>49a1d4</color>
+				<color>7f49a1d4</color>
 			  </PolyStyle>
 			</Style>
 		<Placemark>
