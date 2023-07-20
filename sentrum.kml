@@ -54,15 +54,24 @@
 				<color>7f00ff00</color>
 			  </PolyStyle>
 			</Style>
+			<Style id="sentrum">
+			  <LineStyle>
+				<color>397bbd</color>
+				<width>4</width>
+			  </LineStyle>
+			  <PolyStyle>
+				<color>397bbd</color>
+			  </PolyStyle>
+			</Style>
 		<Placemark>
 			<name>Sentrum</name>
 			<Style>
 				<LineStyle>
-					<color>ff009933</color>
+					<color>397bbd</color>
 					<width>2</width>
 				</LineStyle>
 				<PolyStyle>
-					<color>7f00ff00</color>
+					<color>397bbd</color>
 				</PolyStyle>
 			</Style>
 			<description>Consumption pr person</description>
