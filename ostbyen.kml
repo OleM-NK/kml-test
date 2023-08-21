@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 	<Document>
-		<name>Østbyen Overlay</name>
+		<name>Ground Overlays</name>
 		<description>Examples Test stuff</description>
 			<Style id="blueLine">
 		  <LineStyle>
@@ -54,12 +54,30 @@
 				<color>7f00ff00</color>
 			  </PolyStyle>
 			</Style>
+			<Style id="vestbyen">
+			  <LineStyle>
+				<color>7f49a1d4</color>
+				<width>4</width>
+			  </LineStyle>
+			  <PolyStyle>
+				<color>7f49a1d4</color>
+			  </PolyStyle>
+			</Style>
 		<Placemark>
 			<name>Østbyen</name>
+			<Style>
+			  <LineStyle>
+				<color>fdd4al49</color>
+				<width>2</width>
+			  </LineStyle>
+			  <PolyStyle>
+				<color>80d4al49</color>
+			  </PolyStyle>
+			</Style>
+			<description>Consumption pr person</description>
 			<open>1</open>
-			<styleUrl>yellowLine</styleUrl>
 			<Polygon>
-				<extrude>1</extrude>
+				<tessellate>1</tessellate>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				<outerBoundaryIs>
 					<LinearRing>
