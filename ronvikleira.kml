@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>Ground Overlays</name>
+		<description>Examples Test stuff</description>
+			<Style id="blueLine">
+		  <LineStyle>
+			<color>ffff0000</color>
+			<width>4</width>
+		  </LineStyle>
+			</Style>
+			<Style id="redLine">
+			  <LineStyle>
+				<color>ff0000ff</color>
+				<width>4</width>
+			  </LineStyle>
+			</Style>
+			<Style id="greenLine">
+			  <LineStyle>
+				<color>ff009900</color>
+				<width>4</width>
+			  </LineStyle>
+			</Style>
+			<Style id="orangeLine">
+			  <LineStyle>
+				<color>ff00ccff</color>
+				<width>4</width>
+			  </LineStyle>
+			</Style>
+			<Style id="pinkLine">
+			  <LineStyle>
+				<color>ffff33ff</color>
+				<width>4</width>
+			  </LineStyle>
+			</Style>
+			<Style id="brownLine">
+			  <LineStyle>
+				<color>ff66a1cc</color>
+				<width>4</width>
+			  </LineStyle>
+			</Style>
+			<Style id="purpleLine">
+			  <LineStyle>
+				<color>ffcc00cc</color>
+				<width>4</width>
+			  </LineStyle>
+			</Style>
+			<Style id="yellowLine">
+			  <LineStyle>
+				<color>ff61f2f2</color>
+				<width>4</width>
+			  </LineStyle>
+			  <PolyStyle>
+				<color>7f00ff00</color>
+			  </PolyStyle>
+			</Style>
+			<Style id="vestbyen">
+			  <LineStyle>
+				<color>7f49a1d4</color>
+				<width>4</width>
+			  </LineStyle>
+			  <PolyStyle>
+				<color>7f49a1d4</color>
+			  </PolyStyle>
+			</Style>
+		<Placemark>
+			<name>Rønvikleira</name>
+			<Style>
+			  <LineStyle>
+				<color>fdd4al49</color>
+				<width>2</width>
+			  </LineStyle>
+			  <PolyStyle>
+				<color>80d4al49</color>
+			  </PolyStyle>
+			</Style>
+			<description>Consumption pr person</description>
+			<open>1</open>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.38678368642218,67.2871490968451,416 14.3897505333663,67.28652987323142,416 14.39028286273762,67.28650188304951,416 14.39041563097197,67.28667283487393,416 14.39916386555629,67.28781488327937,416 14.40281932911742,67.28865840934718,416 14.40716213892694,67.28872474381093,416 14.4053083699774,67.28918326658712,416 14.4154879480465,67.29206612203862,416 14.41564257214393,67.29238523853904,416 14.41187369698832,67.29434015930087,416 14.40951904945455,67.29530109854966,416 14.40835936708973,67.29507837537645,416 14.40699983103124,67.29511406826926,416 14.40487975645894,67.29645202128026,416 14.4020534756386,67.29747526154274,416 14.39776809239848,67.29831704474618,416 14.39486269035359,67.29714472302085,416 14.40061484131505,67.29548019485303,416 14.39529922688423,67.29357244751138,416 14.38678368642218,67.2871490968451,416 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Document>
+</kml>
